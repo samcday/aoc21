@@ -2,7 +2,6 @@ use std::fmt::Error;
 use std::io::BufRead;
 
 fn main() -> Result<(), Error> {
-    let stdin = std::io::stdin();
     let values = std::io::stdin()
         .lock()
         .lines()
